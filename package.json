@@ -1,0 +1,23 @@
+{
+  "name": "python-file-upload-trigger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "python -m unittest discover -s tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steve8013/File-upload-trigger"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/steve8013/File-upload-trigger#README",
+  "dependencies": {
+    "serverless-offline-python": "^3.22.1",
+    "serverless-python-requirements": "^5.0.0"
+  }
+}
